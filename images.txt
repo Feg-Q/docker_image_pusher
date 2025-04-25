@@ -5,6 +5,7 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 
+
 # 以下是需要同步的镜像名称
 #codegentoolbox/laftools-linux-x64
 python:3.10-slim
