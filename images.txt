@@ -7,8 +7,13 @@
 
 
 # 以下是需要同步的镜像名称
+# 已经同步过的
 #codegentoolbox/laftools-linux-x64
---platform=arm64 python:3.10-slim
-python:3.10-slim
---platform=arm64 rabbitmq:3.13.7-management
-rabbitmq:3.13.7-management
+#--platform=arm64 python:3.10-slim
+#python:3.10-slim
+#--platform=arm64 rabbitmq:3.13.7-management
+#rabbitmq:3.13.7-management
+
+# 新的需要同步的
+python:3.10-buster
+python:3.10-slim-buster
